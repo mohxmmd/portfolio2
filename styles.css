@@ -52,7 +52,7 @@ h1{
     font-weight: 900;
     line-height: 3.5rem;
     cursor: none;
-    text-shadow: 5px 5px 5px rgba(149, 160, 170, 0.529);
+    text-shadow: 4px 4px 4px rgba(149, 160, 170, 0.529);
 }
 .section2{
     scroll-snap-align: start ;
@@ -81,7 +81,7 @@ h1{
 
 #Name{
     color: rgb(194, 7, 7);
-    text-shadow: 1px 1px 10px rgba(238, 121, 121, 0.462);
+    text-shadow: 0.5px 0.5px 0.5px rgba(238, 121, 121, 0.462);
 }
 h1{
     display: block;
@@ -179,8 +179,9 @@ only screen and (max-width:600px){
     h1{
         font-size: 2.3rem;
         line-height: 2.3rem;
+        text-shadow: 0.2px 0.2px 0.2px rgba(149, 160, 170, 0.529);
     }
-    }
+    
 
     
     nav{
