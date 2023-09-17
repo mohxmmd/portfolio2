@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(26, 11, 13);
+    
+
+
+}
+html{
+    scroll-snap-type: y mandatory;
+}
+nav{
+    position: fixed;
+    top: 0px;
+    scroll-snap-align: start;
+    background-color: transparent;
+    display: flex;
+    padding: 12px;
+    min-width: 100vw;
+    justify-content: end;
+    margin-right: 10px;
+    padding: 10px;
+}
+ul{
+    margin-right: 5%;
+}
+
+ul li{
+    display: inline;
+    padding: 5px;
+    justify-content: space-evenly;
+    margin-right: 5px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: #ffffff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #d7d7d7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dedede, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 3.5rem;
+    cursor: none;
+    text-shadow: 5px 5px 5px rgba(149, 160, 170, 0.529);
+}
+.section2{
+    scroll-snap-align: start ;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: #ffffff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d8d8d1, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dedede, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: left;
+ 
+}
+.section3{
+    scroll-snap-align: start ;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: #ffffff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d8d8d1, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dedede, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    justify-content: center;
+    align-items: center;
+
+}
+
+    
+
+#Name{
+    color: rgb(194, 7, 7);
+    text-shadow: 1px 1px 10px rgba(238, 121, 121, 0.462);
+}
+h1{
+    display: block;
+}
+.about{
+    padding: 10%;
+}
+#aboutme{
+
+    font-size: 2rem;
+    cursor: pointer;
+    display: inline;
+    cursor: none;
+
+}
+#aboutme:hover{
+    color:  rgb(194, 7, 7);
+}
+#contactme:hover{
+    color:  rgb(194, 7, 7);
+}
+#skills{
+    display: inline;
+    cursor: none;
+}
+#skills:hover{
+    color:  rgb(194, 7, 7);
+
+}
+.contact{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.details{
+    padding-left: 1rem;
+
+}
+.det{
+    display: inline;
+}
+
+
+.btn{
+    margin-top: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0.5px rgba(97, 95, 95, 0.599);
+    border-color: transparent;
+    color: white;
+    background-color: rgba(214, 209, 209, 0.237);
+    font-size: large;
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+.btn:hover{
+    background-color: rgb(194, 7, 7);
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px 10px rgba(60, 63, 64, 0.197);
+    font-weight: 400;
+}
+
+a:hover{
+    color: rgb(194, 7, 7);
+    transition-duration: 0.4s;
+}
+
+#reachout:hover{
+    color: white;
+}
+#resume:hover{
+    color: white;
+}
+#contactme{
+    font-size: 3rem;
+
+}
+.details{
+    size: 2rem;
+}
+
+@media
+only screen and (max-width:600px){
+    h1{
+        font-size: 2.3rem;
+        line-height: 2.3rem;
+    }
+    }
+
+    
+    nav{
+        position: fixed;
+        top: 0px;
+        scroll-snap-align: start;
+        background-color: transparent;
+        display: flex;
+        padding: 8px;
+        min-width: 100vw;
+        justify-content: end;
+        margin-right: 5px;
+        padding: 5px;
+    }
+    ul{
+        margin-right: 4%;
+        margin-top: 2%;
+    }
+    
+    ul li{
+        display: inline;
+        padding: 2px;
+        justify-content: space-evenly;
+        margin-right: 5px;
+    }
+    a{
+        font-size: 0.8rem;
+    }
+    .about{
+        padding: 12%;
+        padding-top: 25%;
+        
+    }
+    p{
+        font-size: 1rem;
+    }
+    #contactme{
+        font-size: 2rem;
+    }
+    #aboutme{
+        font-size: 2rem
+    }
+}
