@@ -4,7 +4,8 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    color: rgb(26, 11, 13);
+    color: rgb(255, 255, 255);
+    
     
 
 
@@ -12,6 +13,18 @@
 html{
     scroll-snap-type: y mandatory;
 }
+body{
+    /* background-image: linear-gradient(to top, #5f72bd 20%, #9b23ea 100%); */
+    /* background: #4568DC;  
+background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  
+background: linear-gradient(to right, #B06AB3, #4568DC); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #42275a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
 nav{
     position: fixed;
     top: 0px;
@@ -23,9 +36,12 @@ nav{
     justify-content: end;
     margin-right: 10px;
     padding: 10px;
+    
+    
 }
 ul{
     margin-right: 5%;
+    
 }
 
 ul li{
@@ -33,6 +49,7 @@ ul li{
     padding: 5px;
     justify-content: space-evenly;
     margin-right: 5px;
+    
 }
 .section1{
     display: flex;
@@ -40,7 +57,10 @@ ul li{
     text-align: center;
     min-height: 100vh;
     min-width: 100vw;
-    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+    background-color: transparent;
+    background-image: transparent;
+    
+    
 
     justify-content: center;
     align-items: center;
@@ -50,22 +70,25 @@ h1{
     font-weight: 900;
     line-height: 3.5rem;
     cursor: none;
-    text-shadow: 4px 4px 4px rgba(149, 160, 170, 0.529);
+    text-shadow: 4px 4px 4px rgba(6, 7, 7, 0.529);
+}
+h3{
+    text-shadow: 4px 4px 4px rgba(6, 7, 7, 0.529);
 }
 .section2{
     scroll-snap-align: start ;
     min-height: 100vh;
     min-width: 100vw;
-    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
-    text-align: left;
- 
+    
 }
 .section3{
     scroll-snap-align: start ;
     display: flex;
     min-height: 100vh;
     min-width: 100vw;
-    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+    /* background: #ffffff;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #d8d8d1, #ffffff);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #dedede, #ffffff); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
     justify-content: center;
     align-items: center;
 
@@ -74,8 +97,9 @@ h1{
     
 
 #Name{
-    color: rgb(194, 7, 7);
-    text-shadow: 0.5px 0.5px 0.5px rgba(238, 121, 121, 0.462);
+    color: rgb(255, 0, 0);
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.577);
+    font-size: larger;
 }
 h1{
     display: block;
@@ -92,17 +116,17 @@ h1{
 
 }
 #aboutme:hover{
-    color:  rgb(194, 7, 7);
+    color:  rgb(255, 0, 0);
 }
 #contactme:hover{
-    color:  rgb(194, 7, 7);
+    color:  rgb(255, 0, 0);
 }
 #skills{
     display: inline;
     cursor: none;
 }
 #skills:hover{
-    color:  rgb(194, 7, 7);
+    color:  rgb(255, 0, 0);
 
 }
 .contact{
@@ -130,7 +154,7 @@ h1{
     padding-left: 8px;
     padding-right: 8px;
     border-radius: 10px;
-    box-shadow: 0 4px 4px 0.5px rgba(97, 95, 95, 0.599);
+    box-shadow: 0 4px 4px 0.5px rgba(43, 41, 41, 0.599);
     border-color: transparent;
     color: white;
     background-color: rgba(214, 209, 209, 0.237);
@@ -140,17 +164,17 @@ h1{
 
 }
 .btn:hover{
-    background-color: rgb(194, 7, 7);
+    background-color: rgb(255, 0, 0);
 }
 a{
     text-decoration: none;
-    color: black;
-    text-shadow: 2px 2px 10px rgba(60, 63, 64, 0.197);
+    color: rgb(253, 248, 248);
+    text-shadow: 3px 3px 3px rgba(27, 27, 28, 0.681);
     font-weight: 400;
 }
 
 a:hover{
-    color: rgb(194, 7, 7);
+    color: rgb(255, 0, 0);
     transition-duration: 0.4s;
 }
 
@@ -173,7 +197,7 @@ only screen and (max-width:600px){
     h1{
         font-size: 2.3rem;
         line-height: 2.3rem;
-        text-shadow: 0.2px 0.2px 0.2px rgba(149, 160, 170, 0.529);
+        
     }
     
 
